@@ -53,20 +53,12 @@ Response:
 }
 ```
 
-## Notes
-- Input: 378 raw features (pre-transform) — pipeline handle sisanya
-- `xgb_fraud_v1.pkl` berisi LightGBM tuned (naming dari training)
-- Deploy: `uvicorn app:app --host 0.0.0.0 --port 7860`
-```
-
----
-
-### Struktur `fraud-detection-api/` sekarang
+### Struktur `fraud-detection-api/` 
 ```
 fraud-detection-api/
-├── app.py               ✅ sudah ada (copy dari artifacts/)
-├── requirements.txt     ← buat sekarang
-├── README.md            ← buat sekarang
+├── app.py               
+├── requirements.txt     
+├── README.md            
 └── artifacts/
     ├── xgb_fraud_v1.pkl
     ├── preprocessing_pipeline.pkl

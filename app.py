@@ -1,6 +1,4 @@
-# app.py — Fraud Detection API (minimal)
-# Deploy: uvicorn app:app --host 0.0.0.0 --port 7860
-
+# app.py — Fraud Detection API
 import pickle
 import json
 import numpy as np
@@ -10,11 +8,11 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import Optional, Any
 
-# ── Paths ──────────────────────────────────────────────────────────────────────
+# Paths
 ARTIFACTS = Path("artifacts")
 
-# ── Load artifacts at startup ─────────────────────────────────────────────────
-with open(ARTIFACTS / "xgb_fraud_v1.pkl", "rb") as f:
+# Load artifacts at startup
+with open(ARTIFACTS / "LightGBM_fraud_v1.pkl", "rb") as f:
     model = pickle.load(f)
 
 with open(ARTIFACTS / "preprocessing_pipeline.pkl", "rb") as f:
@@ -27,11 +25,10 @@ THRESHOLD = th_obj["threshold"]
 with open(ARTIFACTS / "model_metadata.json") as f:
     metadata = json.load(f)
 
-# ── Constants ──────────────────────────────────────────────────────────────────
 META_COLS       = ["isFraud", "TransactionDT", "TransactionID"]
 RAW_STRING_COLS = ["id_30", "id_31", "id_33", "id_34", "DeviceInfo", "day_bin"]
 
-# ── Preprocessing (identik NB3 Cell 4) ────────────────────────────────────────
+# Preprocessing
 def preprocess(df, bundle):
     df = df.copy()
     existing_drop = [c for c in bundle["drop_cols"] if c in df.columns]
@@ -65,7 +62,7 @@ def predict(raw_dict: dict) -> dict:
     pred    = int(proba >= THRESHOLD)
     return {"fraud_proba": proba, "fraud_pred": pred, "threshold": THRESHOLD}
 
-# ── FastAPI app ────────────────────────────────────────────────────────────────
+# FastAPI app
 app = FastAPI(title="Fraud Detection API", version="1.0.0")
 
 class TransactionPayload(BaseModel):
