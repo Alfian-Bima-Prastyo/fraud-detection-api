@@ -1,0 +1,54 @@
+{
+  "description": "Production monitoring alert thresholds",
+  "psi_score": {
+    "stable": 0.1,
+    "warning": 0.2,
+    "critical": 0.25,
+    "baseline": 0.012192421819480123
+  },
+  "psi_feature": {
+    "stable": 0.1,
+    "warning": 0.2,
+    "critical": 0.25,
+    "top_monitored_features": [
+      "velocity_card1_addr1",
+      "card2",
+      "card1",
+      "addr1",
+      "TransactionAmt",
+      "C13",
+      "TransactionAmt_log",
+      "card6",
+      "velocity_card1",
+      "C1"
+    ]
+  },
+  "ks_stat": {
+    "warning": 0.1,
+    "critical": 0.2
+  },
+  "pr_auc": {
+    "baseline": 0.5951188330039461,
+    "warning_drop": 0.05,
+    "critical_drop": 0.1,
+    "min_acceptable": 0.5
+  },
+  "recall": {
+    "baseline": 0.8397032514443626,
+    "warning_drop": 0.05,
+    "critical_drop": 0.1,
+    "min_acceptable": 0.7
+  },
+  "alert_rate": {
+    "baseline": 0.1707608941070219,
+    "warning": 0.25,
+    "critical": 0.4
+  },
+  "est_cost": {
+    "baseline": 121965.185,
+    "warning_pct": 0.2,
+    "critical_pct": 0.5
+  },
+  "created_at": "2026-03-28T18:09:28.790511",
+  "model_type": "LightGBM (tuned)"
+}

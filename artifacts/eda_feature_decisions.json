@@ -1,0 +1,342 @@
+{
+  "dist2": {
+    "action": "DROP",
+    "reason": "Missing 93.6%",
+    "group": "transaction_high_missing"
+  },
+  "D7": {
+    "action": "DROP",
+    "reason": "Missing 93.4%",
+    "group": "transaction_high_missing"
+  },
+  "D13": {
+    "action": "DROP",
+    "reason": "Missing 89.5%",
+    "group": "transaction_high_missing"
+  },
+  "D14": {
+    "action": "DROP",
+    "reason": "Missing 89.5%",
+    "group": "transaction_high_missing"
+  },
+  "D12": {
+    "action": "DROP",
+    "reason": "Missing 89.0%",
+    "group": "transaction_high_missing"
+  },
+  "D6": {
+    "action": "DROP",
+    "reason": "Missing 87.6%",
+    "group": "transaction_high_missing"
+  },
+  "D9": {
+    "action": "DROP",
+    "reason": "Missing 87.3%",
+    "group": "transaction_high_missing"
+  },
+  "D8": {
+    "action": "DROP",
+    "reason": "Missing 87.3%",
+    "group": "transaction_high_missing"
+  },
+  "V138": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V139": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V140": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V141": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V142": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V143": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V144": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V145": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V146": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V147": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V148": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V149": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V150": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V151": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V152": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V153": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V154": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V155": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V156": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V157": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V158": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V159": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V160": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V161": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V162": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V163": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V164": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V165": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V166": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V322": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V323": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V324": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V325": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V326": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V327": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V328": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V329": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V330": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V331": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V332": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V333": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V334": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V335": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V336": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V337": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V338": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "V339": {
+    "action": "DROP",
+    "reason": "Missing 86.1%, blok bersamaan",
+    "group": "v_block_high_missing"
+  },
+  "id_24": {
+    "action": "DROP",
+    "reason": "Missing 99.2%",
+    "group": "identity_high_missing"
+  },
+  "id_25": {
+    "action": "DROP",
+    "reason": "Missing 99.1%",
+    "group": "identity_high_missing"
+  },
+  "id_07": {
+    "action": "DROP",
+    "reason": "Missing 99.1%",
+    "group": "identity_high_missing"
+  },
+  "id_08": {
+    "action": "DROP",
+    "reason": "Missing 99.1%",
+    "group": "identity_high_missing"
+  },
+  "id_21": {
+    "action": "DROP",
+    "reason": "Missing 99.1%",
+    "group": "identity_high_missing"
+  },
+  "id_26": {
+    "action": "DROP",
+    "reason": "Missing 99.1%",
+    "group": "identity_high_missing"
+  },
+  "id_23": {
+    "action": "DROP",
+    "reason": "Missing 99.1%",
+    "group": "identity_high_missing"
+  },
+  "id_27": {
+    "action": "DROP",
+    "reason": "Missing 99.1%",
+    "group": "identity_high_missing"
+  },
+  "id_22": {
+    "action": "DROP",
+    "reason": "Missing 99.1%",
+    "group": "identity_high_missing"
+  },
+  "id_18": {
+    "action": "DROP",
+    "reason": "Missing 92.4%",
+    "group": "identity_high_missing"
+  },
+  "id_03": {
+    "action": "MISSING_FLAG + IMPUTE",
+    "reason": "Missing 88.8% \u2014 kemungkinan informatif",
+    "group": "flag_then_impute"
+  },
+  "id_04": {
+    "action": "MISSING_FLAG + IMPUTE",
+    "reason": "Missing 88.8% \u2014 kemungkinan informatif",
+    "group": "flag_then_impute"
+  },
+  "DeviceType": {
+    "action": "MISSING_FLAG + IMPUTE_MODE",
+    "reason": "Missing 76.2% \u2014 struktural ikut join coverage",
+    "group": "flag_then_impute"
+  }
+}

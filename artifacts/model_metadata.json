@@ -1,0 +1,20 @@
+{
+  "model_type": "LightGBM (tuned)",
+  "imbalance_strategy": "smote",
+  "scale_pos_weight": 27.434378869170448,
+  "optimal_threshold": 0.01984924623115578,
+  "n_features": 396,
+  "cv_pr_auc_mean": 0.5835797038985169,
+  "cv_pr_auc_std": 0.03370663581282073,
+  "val_pr_auc": 0.6139488333016789,
+  "test_pr_auc": 0.5951188330039461,
+  "test_roc_auc": 0.920075738033324,
+  "test_f2": 0.4714473013329449,
+  "test_brier": 0.020389862990343087,
+  "cost_fp": 5,
+  "cost_fn": 120,
+  "train_rows": 413379,
+  "trainval_rows": 501960,
+  "is_calibrated": false,
+  "timestamp": "2026-03-28T05:23:19.410500"
+}

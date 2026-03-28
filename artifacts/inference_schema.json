@@ -1,0 +1,1520 @@
+{
+  "model_type": "LightGBM (tuned)",
+  "n_features": 378,
+  "threshold": 0.01984924623115578,
+  "feature_schema": {
+    "TransactionAmt": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "ProductCD": {
+      "dtype": "object",
+      "nullable": false
+    },
+    "card1": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "card2": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "card3": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "card4": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "card5": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "card6": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "addr1": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "addr2": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "dist1": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "P_emaildomain": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "R_emaildomain": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "C1": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "C2": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "C3": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "C4": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "C5": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "C6": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "C7": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "C8": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "C9": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "C10": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "C11": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "C12": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "C13": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "C14": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "D1": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "D2": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "D3": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "D4": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "D5": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "D10": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "D11": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "D15": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "M1": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "M2": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "M3": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "M4": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "M5": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "M6": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "M7": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "M8": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "M9": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V1": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V2": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V3": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V4": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V5": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V6": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V7": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V8": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V9": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V10": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V11": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V12": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V13": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V14": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V15": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V16": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V17": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V18": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V19": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V20": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V21": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V22": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V23": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V24": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V25": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V26": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V27": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V28": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V29": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V30": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V31": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V32": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V33": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V34": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V35": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V36": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V37": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V38": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V39": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V40": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V41": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V42": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V43": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V44": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V45": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V46": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V47": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V48": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V49": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V50": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V51": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V52": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V53": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V54": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V55": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V56": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V57": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V58": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V59": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V60": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V61": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V62": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V63": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V64": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V65": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V66": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V67": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V68": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V69": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V70": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V71": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V72": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V73": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V74": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V75": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V76": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V77": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V78": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V79": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V80": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V81": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V82": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V83": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V84": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V85": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V86": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V87": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V88": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V89": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V90": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V91": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V92": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V93": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V94": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V95": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V96": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V97": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V98": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V99": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V100": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V101": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V102": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V103": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V104": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V105": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V106": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V107": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V108": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V109": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V110": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V111": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V112": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V113": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V114": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V115": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V116": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V117": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V118": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V119": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V120": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V121": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V122": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V123": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V124": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V125": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V126": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V127": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V128": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V129": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V130": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V131": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V132": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V133": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V134": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V135": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V136": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V137": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V167": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V168": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V169": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V170": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V171": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V172": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V173": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V174": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V175": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V176": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V177": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V178": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V179": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V180": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V181": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V182": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V183": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V184": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V185": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V186": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V187": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V188": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V189": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V190": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V191": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V192": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V193": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V194": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V195": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V196": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V197": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V198": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V199": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V200": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V201": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V202": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V203": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V204": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V205": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V206": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V207": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V208": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V209": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V210": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V211": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V212": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V213": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V214": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V215": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V216": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V217": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V218": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V219": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V220": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V221": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V222": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V223": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V224": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V225": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V226": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V227": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V228": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V229": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V230": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V231": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V232": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V233": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V234": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V235": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V236": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V237": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V238": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V239": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V240": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V241": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V242": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V243": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V244": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V245": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V246": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V247": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V248": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V249": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V250": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V251": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V252": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V253": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V254": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V255": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V256": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V257": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V258": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V259": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V260": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V261": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V262": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V263": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V264": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V265": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V266": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V267": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V268": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V269": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V270": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V271": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V272": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V273": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V274": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V275": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V276": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V277": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V278": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V279": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V280": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V281": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V282": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V283": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V284": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V285": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V286": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V287": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V288": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V289": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V290": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V291": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V292": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V293": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V294": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V295": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V296": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V297": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V298": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V299": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V300": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V301": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V302": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V303": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V304": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V305": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V306": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V307": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V308": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V309": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V310": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V311": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V312": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V313": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V314": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V315": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "V316": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V317": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V318": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V319": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V320": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "V321": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "id_01": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "id_02": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "id_03": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "id_04": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "id_05": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "id_06": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "id_09": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "id_10": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "id_11": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "id_12": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "id_13": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "id_14": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "id_15": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "id_16": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "id_17": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "id_19": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "id_20": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "id_28": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "id_29": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "id_32": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "id_35": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "id_36": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "id_37": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "id_38": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "DeviceType": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "has_identity": {
+      "dtype": "int32",
+      "nullable": false
+    },
+    "day": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "has_v_block": {
+      "dtype": "int32",
+      "nullable": false
+    },
+    "TransactionAmt_log": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "P_R_email_match": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "os_family": {
+      "dtype": "object",
+      "nullable": false
+    },
+    "browser_family": {
+      "dtype": "object",
+      "nullable": false
+    },
+    "resolution_group": {
+      "dtype": "object",
+      "nullable": false
+    },
+    "hour_of_day": {
+      "dtype": "int64",
+      "nullable": false
+    },
+    "velocity_card1": {
+      "dtype": "int64",
+      "nullable": false
+    },
+    "velocity_card1_addr1": {
+      "dtype": "int64",
+      "nullable": false
+    },
+    "velocity_email": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "device_brand": {
+      "dtype": "float64",
+      "nullable": false
+    },
+    "id_34_ordinal": {
+      "dtype": "float64",
+      "nullable": true
+    },
+    "id_03_missing": {
+      "dtype": "int32",
+      "nullable": false
+    },
+    "id_04_missing": {
+      "dtype": "int32",
+      "nullable": false
+    },
+    "DeviceType_missing": {
+      "dtype": "int32",
+      "nullable": false
+    }
+  },
+  "timestamp": "2026-03-28T05:23:19.410500"
+}

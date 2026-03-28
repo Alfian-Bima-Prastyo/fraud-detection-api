@@ -1,0 +1,183 @@
+{
+  "binary_encode": {
+    "cols": [
+      "M1",
+      "M2",
+      "M3",
+      "M5",
+      "M6",
+      "M7",
+      "M8",
+      "M9",
+      "id_35",
+      "id_36",
+      "id_37",
+      "id_38"
+    ],
+    "mapping": {
+      "T": 1,
+      "F": 0,
+      "NotFound": null
+    },
+    "note": "NaN di-impute median (0) di pipeline NB2"
+  },
+  "binary_encode_device": {
+    "cols": [
+      "DeviceType"
+    ],
+    "mapping": {
+      "desktop": 0,
+      "mobile": 1
+    },
+    "note": "Missing flag dibuat dulu, lalu impute mode, lalu encode"
+  },
+  "label_encode": {
+    "cols": [
+      "id_12",
+      "id_15",
+      "id_16",
+      "id_28",
+      "id_29",
+      "M4"
+    ],
+    "mapping": {
+      "id_12": {
+        "Found": 0,
+        "NotFound": 1
+      },
+      "id_15": {
+        "Found": 0,
+        "New": 1,
+        "NotFound": 2,
+        "Unknown": 3
+      },
+      "id_16": {
+        "Found": 0,
+        "NotFound": 1
+      },
+      "id_28": {
+        "Found": 0,
+        "New": 1
+      },
+      "id_29": {
+        "Found": 0,
+        "NotFound": 1
+      },
+      "M4": {
+        "M0": 0,
+        "M1": 1,
+        "M2": 2
+      }
+    },
+    "note": "Ordinal encode \u2014 urutan mencerminkan tingkat kepercayaan"
+  },
+  "ordinal_direct": {
+    "cols": [
+      "id_34_ordinal"
+    ],
+    "note": "Sudah di-extract sebagai integer dari match_status"
+  },
+  "frequency_encode": {
+    "cols": [
+      "card1",
+      "card2",
+      "card3",
+      "card4",
+      "card5",
+      "card6",
+      "addr1",
+      "P_emaildomain",
+      "R_emaildomain",
+      "device_brand"
+    ],
+    "note": "Fit HANYA pada train set di NB2 \u2014 anti leakage"
+  },
+  "onehot_encode": {
+    "cols": [
+      "ProductCD",
+      "addr2",
+      "os_family",
+      "browser_family",
+      "resolution_group"
+    ],
+    "note": "Cardinality rendah, one-hot aman"
+  },
+  "drop": {
+    "cols": [
+      "dist2",
+      "D7",
+      "D13",
+      "D14",
+      "D12",
+      "D6",
+      "D9",
+      "D8",
+      "id_24",
+      "id_25",
+      "id_07",
+      "id_08",
+      "id_21",
+      "id_26",
+      "id_23",
+      "id_27",
+      "id_22",
+      "id_18",
+      "V138",
+      "V139",
+      "V140",
+      "V141",
+      "V142",
+      "V143",
+      "V144",
+      "V145",
+      "V146",
+      "V147",
+      "V148",
+      "V149",
+      "V150",
+      "V151",
+      "V152",
+      "V153",
+      "V154",
+      "V155",
+      "V156",
+      "V157",
+      "V158",
+      "V159",
+      "V160",
+      "V161",
+      "V162",
+      "V163",
+      "V164",
+      "V165",
+      "V166",
+      "V322",
+      "V323",
+      "V324",
+      "V325",
+      "V326",
+      "V327",
+      "V328",
+      "V329",
+      "V330",
+      "V331",
+      "V332",
+      "V333",
+      "V334",
+      "V335",
+      "V336",
+      "V337",
+      "V338",
+      "V339"
+    ],
+    "note": "Missing terlalu tinggi atau blok V bersamaan"
+  },
+  "missing_flag": {
+    "cols": [
+      "id_03",
+      "id_04",
+      "DeviceType"
+    ],
+    "note": "Buat kolom _flag = 1 jika missing, lalu impute"
+  }
+}
