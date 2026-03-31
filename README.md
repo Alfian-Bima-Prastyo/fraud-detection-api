@@ -51,7 +51,7 @@ fraud-detection-api/
 ├── requirements.txt     
 ├── README.md            
 └── artifacts/
-    ├── xgb_fraud_v1.pkl
+    ├── LightGBM_fraud_v1.pkl
     ├── preprocessing_pipeline.pkl
     ├── feature_columns.pkl
     ├── frequency_maps.pkl
