@@ -1,12 +1,3 @@
----
-title: Fraud Detection API
-emoji: 🔍
-colorFrom: red
-colorTo: orange
-sdk: docker
-app_port: 7860
----
-
 # Fraud Detection API
 
 REST API untuk deteksi fraud transaksi e-commerce menggunakan LightGBM (tuned).
